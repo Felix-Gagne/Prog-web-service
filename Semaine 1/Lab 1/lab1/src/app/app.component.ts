@@ -8,4 +8,9 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = "lab1";
   cheapWisdom = "Not over until its over";
+  n : number;
+
+  constructor(){
+    this.n = 4;
+  }
   }
